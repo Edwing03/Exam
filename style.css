@@ -1,8 +1,8 @@
 /*
- Theme Name:  underscores Enfant
- Theme URI:    http://example.com/Underscores-enfant/
- Description:  Underscores Enfant Theme
- Author:       John Doe
+ Theme Name:   underscores-enfant
+ Theme URI:    http://example.com/underscores-enfant/
+ Description:  underscores-enfant Theme
+ Author:       Edwing Buteau
  Author URI:   http://example.com
  Template:     underscores
  Version:      1.0.0
@@ -11,3 +11,151 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  underscores-enfant
 */
+body {
+  overflow: auto;
+}
+
+.animation1 {
+  -webkit-animation: animationRectangle1;
+          animation: animationRectangle1;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  text-align: center;
+  border-radius: 25px;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+.divConference {
+  background-color: white !important;
+}
+
+.divConference h4 {
+  position: absolute;
+  left: 12%;
+}
+
+.divConference p {
+  display: inline-block;
+  margin-left: 2%;
+  width: 35%;
+  height: 180px;
+  padding-top: 3%;
+}
+
+.divConference img {
+  float: left;
+  clear: both;
+}
+
+.oFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.oPost {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@-webkit-keyframes animationRectangle1 {
+  from {
+    -webkit-transform: translateX(-1500px);
+            transform: translateX(-1500px);
+    opacity: 0;
+    background-color: transparent;
+  }
+  to {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes animationRectangle1 {
+  from {
+    -webkit-transform: translateX(-1500px);
+            transform: translateX(-1500px);
+    opacity: 0;
+    background-color: transparent;
+  }
+  to {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+img {
+  background-color: red;
+}
+
+h3 {
+  color: blue;
+}
+
+.conference h4 {
+  position: absolute;
+  left: 14%;
+}
+
+.conference p {
+  display: inline-block;
+  margin-left: 2%;
+  width: 35%;
+  height: 100px;
+  padding-top: 3%;
+}
+
+.conference img {
+  float: left;
+  clear: both;
+}
+
+.nouvelles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.oGrid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[31];
+      grid-template-rows: repeat(31, 1fr);
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+.octobre {
+  border: 1px solid black;
+  background-color: yellow;
+}
+
+.septembre {
+  border: 1px solid black;
+  background-color: cyan;
+}
+
+.novembre {
+  border: 1px solid black;
+  background-color: red;
+}
+/*# sourceMappingURL=style.css.map */

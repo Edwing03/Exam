@@ -1,0 +1,43 @@
+img {
+    background-color: red;
+    
+}
+
+h3{
+    color: blue;
+}
+
+
+
+.conference h4{
+    position: absolute;
+    left:14%;
+
+}
+
+.conference p{
+    display: inline-block;
+    margin-left: 2%;
+    width: 35%;
+    height:100px;
+    padding-top:3%;
+}
+
+.conference img{
+    float: left;
+    clear: both;
+}
+
+// .attachment-thumbnail .size-thumbnail .wp-post-image {
+//     size: 3em;
+//     color: red;
+// }
+
+.conference {
+    
+}
+
+.nouvelles {
+    display: flex;
+    flex-direction: row;    
+}
