@@ -34,7 +34,7 @@ get_header();
 				 * If you want to override this in a child theme, then include a file
 				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
 				 */
-                echo '<h4 style="'.$gridArea.'">' . substr(get_the_title(),0,20) . ' '. get_the_date('j-m-Y'). '-'.$jour. '/' .$mois. '</h4>';
+                echo '<h4 class="laGrid" style="'.$gridArea.'">' . substr(get_the_title(),0,20) . ' '. get_the_date('j-m-Y'). '-'.$jour. '/' .$mois. '</h4>';
 
 
 			endwhile;
