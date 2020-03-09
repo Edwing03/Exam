@@ -24,9 +24,9 @@ function extraire_evenement( $query ) {
 
    if (!is_home() && $query->is_category('atelier'))
    {
-      $query->set( 'posts_per_page', 10 );
+      $query->set( 'posts_per_page', 16 );
       $query->set( 'orderby', 'date' );
-      $query->set( 'order', 'asc' );
+      $query->set( 'order', 'desc' );
    }
 }
 add_action( 'pre_get_posts', 'extraire_evenement' );
