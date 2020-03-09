@@ -53,27 +53,6 @@ get_header();
             echo '</div>';
             
         }
-
-          /* The 3nd Query (without global var) */
-        //   $args3 = array(
-        //     "category_name" => "atelier",
-        //     "posts_per_page" => 16
-        // );
-
-
-        $query3 = new WP_Query( $args3 );
-        
-        // The 3nd Loop
-        // while ( $query3->have_posts() ) {
-        //     $query3->the_post();
-        //     echo '<div class="conference">';
-        //     echo '<h4>' . get_the_title( $query3->post->ID ) . ' </h4>'; 
-        //     echo '<p>' . substr(get_the_excerpt(),0,200) . '</p>';
-        //     the_post_thumbnail("thumbnail");
-        //     echo '</div>';
-            
-        // }
-
         
         
         // Restore original Post Data
