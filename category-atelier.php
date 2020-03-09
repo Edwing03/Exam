@@ -4,12 +4,13 @@ get_header();
 
 <div id="primary" class="content-area">
 		<main id="main" class="site-main">
-            
+
         <header class="page-header">
 				<?php
 				the_archive_description( '<h2 class="archive-description">', '</h2>' );
 				?>
-			</header><!-- .page-header -->
+            </header><!-- .page-header -->
+<div class="laGrid">
 <?php
 echo '<ol>';
 while ( have_posts() ) :
@@ -19,3 +20,5 @@ while ( have_posts() ) :
             <a>________ ' . get_the_author_meta('display_name') . '</a>' . '</li>';
 endwhile;
 echo '</ol>';
+?>
+</div>

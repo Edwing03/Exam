@@ -4,20 +4,24 @@
     grid-template-columns: repeat(3,1fr);
 }
 
-.octobre{
-    border:1px solid black;
-    background-color: yellow;
-}
-.septembre{
-    border:1px solid black;
-    background-color: cyan  ;
-}
-.novembre{
-    border:1px solid black;
-    background-color: red;
+.laGrid {
+    padding: 40px !important;
 }
 
-.laGrid {
-    border: 1px solid gray;
-    padding: 15px;
-}
+// .octobre{
+//     border:1px solid black;
+//     background-color: yellow;
+// }
+// .septembre{
+//     border:1px solid black;
+//     background-color: cyan  ;
+// }
+// .novembre{
+//     border:1px solid black;
+//     background-color: red;
+// }
+
+// .laGrid {
+//     border: 1px solid gray;
+//     padding: 15px;
+// }
